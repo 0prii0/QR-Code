@@ -1,53 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
 }
 
 body {
-  background-color: #d3d3d3;
-  margin: 0;
-  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
   display: flex;
-  justify-content: center;
-  height: 100vh;
   align-items: center;
+  font-size: 15px;
 }
 
-.qr-container {
-  background-color: #ffffff;
-  height: 400px;
-  width: 250px;
-  border-radius: 7px;
-  padding-top: 12px;
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 18px;
+  border-radius: 17px;
   text-align: center;
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
+  margin: 0 1em;
 }
 
-.image-sizing {
-  height: 250px;
-  width: 225px;
-  border-radius: 5px;
+.card img {
+  width: 100%;
+  border-radius: 12px;
 }
 
-.bold-content {
-  margin-top: 20px;
-  font-weight: 700;
-  font-family: "Outfit", sans-serif;
-  padding-left: 25px;
-  padding-right: 25px;
+.text {
+  padding: 22px 10px;
 }
 
-.base-content {
-  margin-top: 12px;
-  margin-left: 5px;
-  margin-right: 5px;
-  font-size: 0.75em;
-  color: #8a8989;
-  font-family: "Outfit", sans-serif;
-  padding-left: 25px;
-  padding-right: 20px;
+.text h2 {
+  color: hsl(216, 15%, 48%);
+  padding-bottom: 15px;
+}
+
+.text p {
+  color: hsl(218, 44%, 22%);
 }
