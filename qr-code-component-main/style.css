@@ -23,7 +23,7 @@ body {
   padding-top: 12px;
   text-align: center;
   display: flex;
-  flex-direction: column; /* Stacks elements vertically */
+  flex-direction: column; 
   align-items: center;
 }
 
